@@ -1,0 +1,33 @@
+{
+    "main": {
+        "title": "Projects of azurity",
+        "description": "I'm azurity, these are all my useful projects."
+    },
+    "footer": [
+        {
+            "name": "contact",
+            "list": [
+                {
+                    "name": "github",
+                    "type": "link",
+                    "url": "https://github.com/azurity"
+                },
+                {
+                    "name": "coding",
+                    "type": "link",
+                    "url": "https://coding.net/u/azurity"
+                },
+                {
+                    "name": "微信",
+                    "type": "qrcode",
+                    "url": "QRcdoe.png"
+                }
+            ]
+        }
+    ],
+    "copyright": {
+        "author": "azurity",
+        "license": "CC-BY-NC 4.0",
+        "licenseURL": "https://creativecommons.org/licenses/by-nc/4.0/"
+    }
+}
