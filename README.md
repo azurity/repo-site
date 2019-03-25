@@ -46,7 +46,7 @@ This is a tool to help you build a site showing your projects easily.
     ```json
     {
         "name": "repo-site",
-        "type": "repo", // if type is project, this means a project has not only one repo.
+        "type": "repo",
         "version": {
             "value": "1.0.0",
             "url": ""
@@ -61,5 +61,6 @@ This is a tool to help you build a site showing your projects easily.
         }
     }
     ```
+    > if type is project, this means a project has not only one repo.
 
 -   `index.md`: The cotent that will show on the project page. You can config the markdown syntax by changing the `src/md.ts`(I use [markdown-it](https://markdown-it.github.io/) parsing markdown files. To change the style of code, change `src/main.css`. I use [highlight.js](https://highlightjs.org/) in this porject.)
