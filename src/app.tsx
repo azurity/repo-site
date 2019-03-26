@@ -29,7 +29,7 @@ const style = createStyles({
 const theme = createMuiTheme({
     typography: {
         useNextVariants: true,
-        fontFamily: ['Ubuntu'].join(',')
+        fontFamily: ["'Ubuntu'", "'Noto Sans SC'"].join(',')
     }
 })
 
