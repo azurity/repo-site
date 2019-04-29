@@ -18,7 +18,7 @@ This is a tool to help you build a site showing your projects easily.
     npm run build
     ```
 
--   finally: The files in `dist` folders is your site, write something to develop your site.
+-   finally: Files in folder named `dist` are your site, write something to develop your site.
 
 ## How to use files in `dist` folder
 
