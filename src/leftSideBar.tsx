@@ -11,6 +11,9 @@ import Typography from '@material-ui/core/Typography'
 import * as param from '../template-param.json'
 
 const style = createStyles({
+    logo: {
+        width: '100%'
+    },
     footer: {
         display: 'inline-block',
         width: '50%'
@@ -75,6 +78,7 @@ class LeftSideBar extends React.Component<LeftSideBarProps, LeftSideBarState> {
                             }}>
                             <img
                                 src="/logo.png"
+                                className={classes.logo}
                                 onError={() => {
                                     this.setState({ hasLogo: false })
                                 }}
@@ -123,7 +127,10 @@ class LeftSideBar extends React.Component<LeftSideBarProps, LeftSideBarState> {
                 {param.copyright.author && (
                     <Typography align="center" color="textSecondary">
                         copyright &copy; {new Date().getFullYear()}{' '}
-                        <span className={classes.name}>{param.copyright.author}</span>
+                        <span
+                            className={classes.name}
+                            dangerouslySetInnerHTML={{ __html: param.copyright.author }}
+                        />
                     </Typography>
                 )}
                 {param.copyright.author && param.copyright.license && (
